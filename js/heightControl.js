@@ -2,7 +2,7 @@
 
 let status2 = 'init';
 
-heightControl = ()=> {
+function heightControl(){
     let $footer = $('div.row-footer');
     let $footer_height = $footer.height();
     let $height = $('div.height-cal').height();
@@ -24,5 +24,5 @@ $(function(){
     heightControl();
 });
 
-$(window).resize(heightControl);
+$(window).resize(heightControl());
 
