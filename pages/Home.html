@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wakers</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/index2.css">
+    <link rel="stylesheet" type="text/css" href="./css/big.css">
+    <link rel="stylesheet" type="text/css" href="./css/info.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/css/swiper.min.css">
+    <style>
+        body{
+            width:600%;
+            height: 100%;
+            display: flex;
+        }
+        #slidebox { width: 100%; height: 100%; overflow:hidden; background-color:#252525;}
+        #slider { position: relative; list-style: none; text-align:center;}
+        #slider li { position: absolute; left: 0; top: 0; width:100%; }
+        #slider li img { width:80%; height: 80%; min-height:80%; box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);}
+    </style>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/map.js"></script>
+    <script src="js/product3-btnEvent.js"></script>
+    <script src="js/scrollintoview.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/js/swiper.min.js"></script>
+
+</head>
+<body onload="initialize()">
+
+<div class="product-menu-wrapper">
+    <button class="product-menu"> </button>
+    <button class="product-menu"> </button>
+    <button class="product-menu"> </button>
+    <button class="product-menu"> </button>
+</div>
+    <header>
+        <span class="wakers"><p> WAKERS </p></span>
+        <div class="menu">
+            <a class="stay" href="Home.html"><p> HOME</p></a>
+            <a href="Home.html"> PRODUCT</a>
+            <a href="Home.html">CONTACT US</a>
+        </div>
+    </header>
+    <nav>
+    </nav>
+    <div class="Home-wrapper" id="home">
+        <main>
+            <button class="nextPage" onclick="nextPage(0)"> >> </button>
+            <div class="box2-wrapper">
+                <div class="box" style="background-color: #383838;">
+                    <img id="door" src="img/door_origin.png">
+                </div>
+                <div class="box" style="background-color: #383838;">
+                    <span id="text">
+                        <p style="font-size: 20px">
+                            Specialized Smart Lock For Australia
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div id="line"> </div>
+            <div id="black-line"> </div>
+        </main>
+        <footer>
+            <div class="footer-nav">
+
+            </div>
+                <h3>WAKERS Inc.</h3> <br/>
+                Managing Director : JeonChoongKwang <br/>
+                E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+                Address: Asan Hall , Korea Maritime and Ocean University 727
+                <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+                <br/> <br/>
+                Copyright 2018 WAKERS Inc. All rights Reserved
+        </footer>
+
+    </div>
+    <div class="Home-wrapper" id="product1">
+
+        <main>
+            <button class="nextPage" onclick="nextPage(1)"> >> </button>
+            <button class="prevPage" onclick="prevPage(1)"> << </button>
+
+            <div class="box2-wrapper">
+                <div class="box">
+                    <div id="product1-text">
+                        <span id="product1-1-big">
+                            <p>Partially replaced Smart Door Lock</p><br/>
+                        </span>
+                        <span id="product1-1-small">
+                            <p style="font-size: small">Only replace STRIKE installed on door frame</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="box" >
+                    <img id="video" src="img/intro.png">
+                    <div id="test" >
+                        <div id="lock-text">
+                            <h2><p>Fits Deadlatch</p></h2><br/>
+                            <p style="font-size: small">Fits Almost All Deadlatch locks<br/>
+                            In Austraila<p>
+                        </div>
+                        <img id="lock" src="img/doorlock.png" align="right">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav>
+
+        </nav>
+        <footer>
+            <div class="footer-nav">
+
+            </div>
+            <h3><p>WAKERS Inc.</p></h3> <br/>
+            <p>Managing Director : JeonChoongKwang <br/>
+            E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+            Address: Asan Hall , Korea Maritime and Ocean University 727
+            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+            <br/> <br/>
+            Copyright 2018 WAKERS Inc. All rights Reserved
+            </p>
+        </footer>
+
+    </div>
+    <div class="Home-wrapper" id="product2">
+        <main style="height: 77%;">
+            <div id="product3-blue">
+
+                <button class="nextPage" onclick="nextPage(2)"> 얍 </button>
+                <button class="prevPage" onclick="prevPage(2)"> << </button>
+
+            </div>
+            <div id="product3-sky"></div>
+            <div id="product3-sky-lower"></div>
+
+            <button id="text1-display-btn" onclick="text1_show()">Click</button>
+            <button id="text2-display-btn" onclick="text2_show()">Me</button>
+
+            <div class="box2-wrapper" style="position: relative; top:-3%;">
+                <div class="box">
+                    <img id="demo" src="img/demo.png">
+                </div>
+                <div class="box">
+                    <div id="product-text1">
+                        <span class="product3-title"><p> Smart Door lock </p></span><br/>
+                        <p style="font-size: small"> Intellectual property<br/>
+                        - Patent:  Smart Striker /10-2017-0175676, two more <br/>
+                        - Industrial design right: Doorlock Striker / 30-2018-0001521<br/>
+                        </p>
+                    </div>
+                    <div id="product-text2">
+                        <span class="product3-title"><p> APPLICATION FUNCTIONS </p></span><br/>
+                        <span class="text">
+                            <p style="font-size: small">01. Remote Control</p>
+                    </span>
+                        <span class="text">
+                            <p style="font-size: small">02. Virtual keys</p>
+                    </span>
+                        <span class="text">
+                            <p style="font-size: small">03. Monitoring System</p>
+                    </span>
+                    </div>
+                    <div id="product-pic3">
+                        <img class="app" src="img/app1.png">
+                        <img class="app" src="img/app2.png">
+                        <img class="app" src="img/app3.png">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer style="z-index: 2">
+            <div class="footer-nav">
+
+            </div>
+            <h3>WAKERS Inc.</h3> <br/>
+            Managing Director : JeonChoongKwang <br/>
+            E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+            Address: Asan Hall , Korea Maritime and Ocean University 727
+            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+            <br/> <br/>
+            Copyright 2018 WAKERS Inc. All rights Reserved
+        </footer>
+
+    </div>
+    <div class="Home-wrapper" id="product3">
+        <main  style="height: 90%;">
+
+            <button class="nextPage" onclick="nextPage(4)"> >> </button>
+            <button class="prevPage" onclick="prevPage(4)"> << </button>
+
+            <div class="box2-wrapper">
+                <div class="box">
+                    <div id="product2-text">
+                        <img src="img/icon.png" align="left">
+                        <div id="text-align">
+                            <p> Smart door lock that can be installed<br/> in 5 minutes with </p>
+                            <p style="font-size: xx-large; display: inline-block; color:#19334d;">
+                                only Driver
+                            </p>
+                        <br/>
+                        </div>
+                        <hr/>
+                    </div>
+                </div>
+
+                <div class="box" >
+                    <img id="install" src="img/install.png">
+                </div>
+            </div>
+            <div id="install-sky"> ... </div>
+            <div id="install-blue">
+                <div id="btn-group-title"><p> Value Proposition </p></div>
+                <div class="btn-group">
+                    <button>
+                        <div class="btn-text-title"><p>No damage for installation </p></div><br/>
+                        <p>
+                            - Relieve installation burdens<br/>
+                            in rental housing
+                        </p>
+                    </button>
+                    <button>
+                        <div class="btn-text-title">D.I.Y</div><br/>
+                        - Labor savings of at least $140 </button>
+                    <button>
+                        <div class="btn-text-title">Smart Device</div><br/>
+                        - Creation of virtual key<br/>
+                        - Monitoring entry and leave</button>
+                    <button class="square"> Monitoring entry and leave </button>
+                </div>
+            </div>
+        </main>
+        <footer style="top:37.5%;">
+            <div class="footer-nav">
+
+            </div>
+            <h3>WAKERS Inc.</h3> <br/>
+            Managing Director : JeonChoongKwang <br/>
+            E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+            Address: Asan Hall , Korea Maritime and Ocean University 727
+            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+            <br/> <br/>
+            Copyright 2018 WAKERS Inc. All rights Reserved
+        </footer>
+    </div>
+    <div class="Home-wrapper" id="product4">
+        <main style="height: 70%;">
+            <div id="slidebox" onmouseover="mouseover()" onmouseout="mouseout()">
+                <div id="cafe-hover">
+                    <p style="font-size: large">This is not just door lock..</p>
+                </div>
+                <ul id="slider">
+                    <li>
+                        <img src="img/cafe.png" width="80%"/>
+                    </li>
+                    <li>
+                        <img src="img/cafe2.png" width="80%"/>
+                    </li>
+                    <li>
+                        <img src="img/cafe3.png" width="80%"/>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-nav">
+            </div>
+            <h3>WAKERS Inc.</h3> <br/>
+            Managing Director : JeonChoongKwang <br/>
+            E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+            Address: Asan Hall , Korea Maritime and Ocean University 727
+            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+            <br/> <br/>
+            Copyright 2018 WAKERS Inc. All rights Reserved
+        </footer>
+    </div>
+    <div class="Home-wrapper" id="info">
+        <main>
+            <div id="contact"><p>Contact Us</p></div>
+            <div class="info-container">
+                <div class="box">
+                    <div id="map">
+                        <h2><p> Location </p></h2>
+                        <h4>
+                            Asan Hall , Korea Maritime and Ocean University
+                            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+                        </h4>
+                        <br />
+                    </div >
+                    <div id="map_canvas" style="width: 65%; height: 50%; margin:auto auto"></div>
+                </div>
+                <div class="box">
+                    <div class="text"></div>
+                    <div class="content">
+                        <div id="input-wrapper">
+                            <form class="form-horizontal" name="userinfo" method="post" role="form" action="http://localhost:3000/mail">
+                                <div class="form-group form-group-sm">
+                                    <label class="control-label col-sm-1" for="name"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" aria-describedby="basic-addon1" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-group-sm">
+                                    <label class="control-label col-sm-1" for="email"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                                    </label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="email" name="email" placeholder="Enter Phone Num"  required>
+                                    </div>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label class="control-label col-sm-1" for="title"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="title" name="title" placeholder="Enter Title">
+                                    </div>
+                                </div>
+                                <div class="form-group form-group-sm">
+                                    <label class="control-label col-sm-1" for="content"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></label>
+                                    <div class="col-sm-10">
+                                        <textarea type="text" class="form-control form-control-lg" name="content" id="content" placeholder="" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-lg">
+                                        <button type="submit" class="btn btn-default" style="margin:5% 13%; width: 50%;">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-nav">
+
+            </div>
+            <h3>WAKERS Inc.</h3> <br/>
+            Managing Director : JeonChoongKwang <br/>
+            E-mail: wakers.balmbro@gmail.com | CRN:839-00732<br/>
+            Address: Asan Hall , Korea Maritime and Ocean University 727
+            <br/>Taejong-ro, Yeongdo-Gu, Busan 49112, South Korea
+            <br/> <br/>
+            Copyright 2018 WAKERS Inc. All rights Reserved
+        </footer>
+    </div>
+
+</body>
+</html>
+<script src="js/fadein.js"></script>
+

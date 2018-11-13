@@ -1,0 +1,134 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 0.7vw;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+.wakers{
+    color:lightgray;
+    padding-left: 2vw;
+    margin-top: 20px;
+}
+
+.menu{
+    margin-top: 20px;
+    float:right;
+    white-space: nowrap;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.menu a{
+    color: grey;
+    padding: 2%;
+}
+
+.menu a:link, a:visited{
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+}
+
+.menu a:hover, a:active{
+    color: white;
+}
+
+#stay{
+    color: white;
+}
+
+p a{
+    color:black;
+}
+
+div .footer-text a{
+    color:#000000;
+}
+
+.container-control{
+    position: relative;
+    min-height: 100%;
+    max-width:1040px;
+}
+
+.row-header{
+    background-color:black;
+    height: 70px;
+}
+
+.row-nav{
+    background-color: #202020;
+    height: 70px;
+}
+
+.row-footer{
+    background-color: #181818;
+}
+
+.row-footer-absolute{
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+
+.row-footer-relative{
+    position:relative;
+}
+
+
+.footer-text{
+    color: darkgray;
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+}
+
+
+.product-menu-wrapper button{
+    background-color: gray;
+    padding:2%;
+    border: none;
+    margin:2%;
+    width:13%;
+    height: 0.01%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+}
+
+.product-menu-wrapper button:hover{
+    background-color: whitesmoke;
+}
+
+
+.product-menu-wrapper{
+    position: relative;
+    width:200px;
+    top:40%;
+    height: 30px;
+    margin-left:43%;
+}
+
+.product-menu-wrapper .active{
+    background-color: whitesmoke;
+}
+
+

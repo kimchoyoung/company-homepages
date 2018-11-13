@@ -1,0 +1,80 @@
+
+html{
+    font-size: 0.9vw;
+}
+
+.row-main-height{
+    height:auto;
+}
+
+/*home*/
+#door{
+    width:100%;
+}
+
+p#home-text{
+    position: relative;
+    top: 58%;
+    font-size: 1.5rem;
+    color: white;
+    width:100%;
+}
+
+
+#line{
+    top:48%;
+    height:4vw;
+}
+
+
+/*
+    Product 1
+*/
+.pro1-big-vertical-align{
+    margin-top:4%;
+}
+
+
+/*
+    Product 2
+*/
+
+.btn-group button {
+    margin-bottom: 1.5vh;
+}
+
+/*
+* product 3
+*/
+
+
+#pro3-explain{
+    margin-top: 10vw;
+    margin-left: 3vw;
+}
+
+
+#padding-row{
+    padding:3.5vw;
+}
+
+
+/*
+product 4
+*/
+
+
+/*수직정렬
+.text{
+    float:left;
+    height: 50%;
+    margin-bottom: -170px;
+
+}
+
+.content{
+    clear:both;
+    height: 240px;
+}
+
+*/

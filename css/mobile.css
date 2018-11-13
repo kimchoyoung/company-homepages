@@ -1,0 +1,169 @@
+
+html{
+    font-size: 1.4vw;
+}
+
+.row-main-height{
+    height:auto;
+}
+
+
+.product-menu-wrapper{
+    position: relative;
+    width:200px;
+    top:60%;
+    height: 20px;
+    margin-left:30%;
+}
+
+
+/**/
+#door{
+    width:100%;
+}
+
+#mobile-home-text{
+    position: absolute;
+    color:white;
+    top:55%;
+    right:10px;
+}
+
+#line{
+    height:6.5vw;
+}
+
+p#home-text{
+    font-size: 1.5rem;
+    top:-38vw;
+}
+
+/**/
+
+#video{
+    position: relative;
+    width:90%;
+    left:5%;
+}
+
+#lock{
+    width:80%;
+}
+
+.die{
+    margin-top: 1vh;
+}
+
+#pro2-text-background-color{
+    background-color: white;
+    color:black;
+}
+
+hr#pro1{
+    background-color: black;
+}
+
+/*3*/
+
+#text1-display-btn,#text2-display-btn{
+    display: none;
+}
+#disappear-1,#disappear-2{
+    display: block;
+}
+
+#pro3-explain{
+    width:80%;
+    margin: 10vw auto;
+}
+
+#container-control{
+    margin:0 auto;
+}
+
+.btn-group button {
+    width: 35vw;
+    height: 35vw;
+    padding: 0 0;
+    margin: 3vh 22.5vw;
+    font-size: 0.8rem;
+}
+
+#btn-group-title{
+    text-align: center;
+    margin-top: 3%;
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+
+#col-btn-1,#col-btn-2,#col-btn-3{
+    text-align: center;
+    margin-left:25px;
+}
+/*2*/
+
+#mobile-cafe2{
+    position: relative;
+    background-color: whitesmoke;
+    max-height: 600px;
+}
+
+
+#install{
+    width:60vw;
+    margin: 0 20%;
+}
+
+#icon{
+    width:30vw;
+    height: 14vw;
+    margin-top: -15px;
+}
+
+.mobile-margin{
+    margin-top:7vh;
+}
+
+/*4*/
+
+#slidebox-col{
+    height:60vw;
+}
+
+#slider li img {
+    width:100%;
+}
+
+#cafe-hover{
+    width:100vw;
+    left:0;
+    margin:auto auto;
+}
+
+
+#cafe-hover{
+    width:100vw;
+    left:0;
+}
+
+/**/
+
+.form-control{
+    width:65%;
+}
+
+#location-text{
+    width: 76%;
+    white-space: nowrap;
+}
+
+label {
+    margin: auto auto;
+    display: none;
+}
+
+#map_canvas {
+    width: 76%;
+    height: 45vw;
+}
