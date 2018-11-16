@@ -24,5 +24,5 @@ $(function(){
     heightControl();
 });
 
-$(window).resize(heightControl());
+$(window).resize(heightControl);
 

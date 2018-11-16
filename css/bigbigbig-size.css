@@ -3,12 +3,7 @@ html{
 }
 
 .row-nav, .row-footer-nav{
-    background-color: #202020;
     height: 70px;
-}
-
-.row-footer-nav{
-    margin-bottom:0;
 }
 
 .row-main-height{
@@ -42,7 +37,7 @@ p#home-text{
 }
 
 #door{
-    width:100%;
+    width:115%;
     height:100%;
 }
 
@@ -98,7 +93,7 @@ hr#pro1{
 
 #icon{
     float:left;
-    margin-top: 10px;
+    margin-top: -25PX;
     width:15vw;
     max-width: 200px;
     height: 6.5vw;
@@ -242,18 +237,18 @@ hr#pro2{
 }
 
 #text1-display-btn{
-    top:43%;
-    left:18%;
+    top:45%;
+    left:12%;
 }
 
 #text2-display-btn{
     top:73%;
-    left: 48%;
+    left: 40%;
 }
 
 #pro3-explain{
     position: relative;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 30px;
 }
 
