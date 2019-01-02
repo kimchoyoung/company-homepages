@@ -1,13 +1,15 @@
-
-
 let status2 = 'init';
 
-function heightControl(){
+function heightControl(idx){
     let $footer = $('div.row-footer');
     let $footer_height = $footer.height();
-    let $height = $('div.height-cal').height();
+    let $height_cal = $('div.height-cal');
+    let $height =$height_cal.eq(idx).height();
     let $browser_height = window.innerHeight;
 
+
+
+//    console.log($footer_height+$height, $browser_height);
     if ($height+$footer_height > $browser_height && status2 !=='relative') {
         $footer.addClass('row-footer-relative');
         $footer.removeClass('row-footer-absolute');
@@ -21,8 +23,8 @@ function heightControl(){
 
 
 $(function(){
-    heightControl();
+    heightControl(0);
 });
 
-$(window).resize(heightControl);
+//$(window).resize(heightControl);
 

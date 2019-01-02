@@ -141,12 +141,6 @@ hr#pro1{
     margin:auto auto;
 }
 
-
-#cafe-hover{
-    width:100vw;
-    left:0;
-}
-
 /**/
 
 .form-control{
@@ -167,3 +161,8 @@ label {
     width: 76%;
     height: 45vw;
 }
+
+#demo{
+    height:400px;
+}
+

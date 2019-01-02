@@ -24,9 +24,15 @@ body{
 }
 
 .wakers{
-    color:lightgray;
+    color: blue;
+    text-align: left;
     padding-left: 2vw;
     margin-top: 20px;
+    text-decoration: none;
+}
+
+.wakers a:link, a:hover{
+    text-decoration: none;
 }
 
 .menu{
@@ -55,11 +61,6 @@ body{
 #stay{
     color: white;
 }
-
-p a{
-    color:black;
-}
-
 div .footer-text a{
     color:#000000;
 }

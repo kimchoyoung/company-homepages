@@ -4,12 +4,12 @@ html{
 }
 
 .row-main-height{
-    height:auto;
+    height:53vw;
 }
 
 /*home*/
 #door{
-    width:100%;
+    width:120%;
 }
 
 p#home-text{
@@ -59,7 +59,7 @@ p#home-text{
 
 
 #padding-row{
-    padding:3.5vw;
+    padding:2vw;
 }
 
 

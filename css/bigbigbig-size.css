@@ -185,9 +185,10 @@ hr#pro2{
     white-space: nowrap;
     position: relative;
     padding-left:3%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     width:30%;
     z-index: 2;
+    text-align: left;
 }
 
 
@@ -247,6 +248,7 @@ hr#pro2{
 }
 
 #pro3-explain{
+    text-align: left;
     position: relative;
     margin-top: 50px;
     margin-left: 30px;
